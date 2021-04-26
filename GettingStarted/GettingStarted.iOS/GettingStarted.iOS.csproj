@@ -150,7 +150,7 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1821" />
     <PackageReference Include="Syncfusion.Xamarin.SfRadialMenu">
-      <Version>19.1.0.57</Version>
+      <Version>*</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
