@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GettingStarted"
+              xmlns:radialMenu="clr-namespace:Syncfusion.SfRadialMenu.XForms;assembly=Syncfusion.SfRadialMenu.XForms"
+             x:Class="GettingStarted.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="customfontfamily" iOS="Segoe MDL2 Assets" Android="radialmenu_Segoe MDL2 Assets.ttf" WinPhone="radialmenu_Segoe_MDL2_Assets.ttf#Segoe MDL2 Assets"  />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <radialMenu:SfRadialMenu x:Name="radial_Menu" CenterButtonText="" CenterButtonBackText="" CenterButtonFontFamily="{StaticResource customfontfamily}" CenterButtonRadius="32" EnableCenterButtonAnimation="false" CenterButtonBackFontFamily="{StaticResource customfontfamily}" CenterButtonBorderColor="White" SelectionColor="#FF007ACC"
+          >
+        <radialMenu:SfRadialMenu.Items>
+            <radialMenu:SfRadialMenuItem FontIconText="" IconFontFamily="{StaticResource customfontfamily}">
+                <radialMenu:SfRadialMenuItem.Items>
+                    <radialMenu:SfRadialMenuItem x:Name="Wifi1" FontIconText="" IconFontFamily="{StaticResource customfontfamily}" >
+
+                    </radialMenu:SfRadialMenuItem>
+                    <radialMenu:SfRadialMenuItem x:Name="Wifi2"  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem x:Name="Wifi3"  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem x:Name="Wifi4"  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                </radialMenu:SfRadialMenuItem.Items>
+            </radialMenu:SfRadialMenuItem>
+            <radialMenu:SfRadialMenuItem FontIconText="" IconFontFamily="{StaticResource customfontfamily}">
+                <radialMenu:SfRadialMenuItem.Items>
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                </radialMenu:SfRadialMenuItem.Items>
+            </radialMenu:SfRadialMenuItem>
+            <radialMenu:SfRadialMenuItem FontIconText="" IconFontFamily="{StaticResource customfontfamily}">
+                <radialMenu:SfRadialMenuItem.Items>
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                </radialMenu:SfRadialMenuItem.Items>
+            </radialMenu:SfRadialMenuItem>
+            <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}">
+                <radialMenu:SfRadialMenuItem.Items>
+                    <radialMenu:SfRadialMenuItem  IconFontSize="16" FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem  IconFontSize="18" FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem  IconFontSize="20" FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                </radialMenu:SfRadialMenuItem.Items>
+            </radialMenu:SfRadialMenuItem>
+            <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}">
+                <radialMenu:SfRadialMenuItem.Items>
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                </radialMenu:SfRadialMenuItem.Items>
+            </radialMenu:SfRadialMenuItem>
+            <radialMenu:SfRadialMenuItem FontIconText=""  IconFontFamily="{StaticResource customfontfamily}">
+                <radialMenu:SfRadialMenuItem.Items>
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                    <radialMenu:SfRadialMenuItem  FontIconText="" IconFontFamily="{StaticResource customfontfamily}" />
+                </radialMenu:SfRadialMenuItem.Items>
+            </radialMenu:SfRadialMenuItem>
+        </radialMenu:SfRadialMenu.Items>
+    </radialMenu:SfRadialMenu>
+</ContentPage>
